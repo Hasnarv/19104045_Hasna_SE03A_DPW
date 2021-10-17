@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(https://ittelkom-pwt.ac.id/wp-content/uploads/2021/04/bg.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-color: #e5e5e5e5;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.sosmed{
+    display: flex;
+    justify-content: space-evenly;
+    width: 125px;
+    margin-right: 200px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.sosmed .instagram:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.sosmed .facebook:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.sosmed .youtube:hover{
+    cursor: pointer;
+    color: red;
+}
+
+/* hero */
+.hero{
+    display: grid;
+    margin: 25px auto;
+    width: 73%;
+    height: 550px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 40%);
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 25px;
+    display: flex;
+    background-color: #DB292F;
+    border-radius: 25px 25px 0 0;
+    height: 10%;
+}
+
+.navbar img {
+    width: 16%;
+    height: 55px;
+}
+
+.navList {
+    width: 56%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 15px;
+    margin-left: -28px;
+    margin-right: 65px;
+}
+
+.searchBar {
+    position: relative;
+    width: 22%;
+}
+
+.searchBar input {
+    margin-top: 8px;
+    height: 40px;
+    background-color: #e25155;
+    width: 96%;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.searchBar input::placeholder {
+    color: white;
+}
+
+.iconSRC {
+    top : 34%;
+    right: 20px;
+    position: absolute;
+    color: white;
+    font-size: 19px;
+}
+
+.tentang:hover {
+    cursor: pointer;
+}
+
+.pendidikan:hover {
+    cursor: pointer;
+}
+
+.prestasiNav:hover {
+    cursor: pointer;
+}
+
+.riset:hover {
+    cursor: pointer;
+}
+
+.daftar:hover {
+    cursor: pointer;
+}
+/* carausel */
+
+.carausel img {
+    width: 100%;
+    position: absolute;
+    top : 45px;
+    border-radius: 0 0 25px 25px;
+    height: 505px;
+}
+
+.caption {
+    position: absolute;
+    z-index: 9999;
+    top: 25%;
+    left: 15%;
+    width: 35%;
+}
+
+.caption h1 {
+    color: #DB292F;
+}
+
+.caption p {
+    text-align: justify;
+    font-size: 19px;
+}
+
+.cta {
+    margin-top: 18px;
+    background: none;
+    border: none;
+    background: #DB292F;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 7px;
+    font-size: 17px;
+}
+
+.cta:hover {
+    cursor: pointer;
+    background-color:#ffbf00;
+}
+/* carausel */
+
+/* hero */
+
+/* info */
+.info {
+    display: grid;
+    margin: 85px auto;
+    width: 73%;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 40%);
+    background-color: white;
+}
+
+.display-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    justify-items: center;
+}
+
+.display-info p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card {
+    width: 245px;
+}
+
+.icon {
+    font-size: 33px;
+    margin: 13px 12px;
+}
+
+.btn {
+    background: none;
+    background-color: #DB292F;
+    border: none;
+    color: white;
+    font-size: 13px;
+    width: max-content;
+    display: grid;
+    margin: 33px auto;
+    padding: 7px 13px;
+}
+
+/* hover */
+.card:hover {
+    transform: translateY(-45px);
+    transition: .4s;
+    background: linear-gradient(#db292f, #741216);
+    color: white;
+    border-radius: 23px;
+}
+/* info */
+
+/* mengapa ITTP */
+/* judul */
+.judul {
+    margin-left: 205px;
+    margin-top: -30px;
+    width: 35%;
+    height: 50px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(212, 211, 211, 0.788);
+    position: relative;
+}
+
+.garis {
+    width: 2%;
+    height: 50px;
+    background-color: #DB292F;
+    
+}
+
+.judul p {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    margin-top: 12px;
+}
+
+p span {
+    font-weight: 700;
+}
+/* judul */
+
+/* kunggulan */
+.keunggulan {
+    display: grid;
+    margin: 30px auto;
+    width: 73%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardKeunggulan {
+    margin-top: 38px;
+    width: 22%;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid #db292f;
+    height: 200px;
+}
+
+.cardKeunggulan img {
+    position: absolute;
+    background-color: white;
+    padding: 6px;
+    border-radius: 9px;
+    top: 3px;
+    left: 97px;
+    box-shadow: 5px 5px 23px rgba(0, 0, 0, 30%);
+}
+
+.cardKeunggulan img.why2 {
+    left: 386px;
+}
+
+.cardKeunggulan img.why3 {
+    left: 672px;
+}
+
+.cardKeunggulan img.why4 {
+    left: 960px;
+}
+
+.cardKeunggulan p.heading {
+    margin-top: 0px;
+    background-color: #db292f;
+    padding: 18px;
+    color: white;
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    border-radius: 9px 9px 0 0;
+}
+
+.cardKeunggulan p.foot {
+    text-align: center;
+    font-size: 12px;
+}
+/* kunggulan */
+/* mengapa ITTP */
+
+/* testimoni */
+/* judul testimoni */
+.testimoni {
+    background-color: #db292f2c;
+    position: relative;
+    width: 100%;
+    height: 670px;
+    margin-top: 60px;
+
+}
+
+.isiTesti {
+    position: absolute;
+    width: 100%;
+}
+
+h2.judulAtas{
+    margin-top: 40px;
+    margin-bottom: 3px;
+    text-align: center;
+
+}
+
+.grs {
+    display: grid;
+    margin: auto;
+    width: 73%;
+    height: 2px;
+    background: #DB292F;
+}
+
+.grsTebel {
+    display: grid;
+    margin: 0 auto;
+    width: 16%;
+    height: 5px;
+    background: #DB292F;
+}
+
+/* card item */
+.grsAbu {
+    margin-left: 205px;
+    margin-top: 30px;
+    width: 10%;
+    height: 50px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(202, 202, 202);
+    position: relative;
+}
+
+.grsAbu p {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    margin-top: 12px;
+}
+
+.merah {
+    width: 5%;
+    height: 50px;
+    background-color: #DB292F;
+}
+
+.wadahTestimoni {
+    margin: 30px auto;
+    width: 65%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.cardTesti {
+    width: 30%;
+    border-radius: 12px;
+    background-color: #DB292F;
+    height: 400px;
+}
+
+.cardTestiTgh {
+    width: 30%;
+    border-radius: 12px;
+    background-color:white ;
+    height: 400px;
+}
+ .cardTesti img {
+     display: grid;
+     margin: 40px auto;
+     width: 45%;
+ }
+
+ .cardTestiTgh img {
+    display: grid;
+    margin: 40px auto;
+    width: 45%;
+ }
+
+ .isi {
+     text-align: center;
+     margin-top: -30px;
+     color: white;
+ }
+
+ .isi h5 {
+     margin-top: -20px;
+ }
+
+ .isi p {
+     text-align: center;
+     font-size: 11px;
+     margin: -10px 15px;
+
+ }
+
+ .cardTestiTgh .isi {
+    color: black;
+ }
+
+ .cardTestiTgh .isi h4{
+    color: #DB292F;
+ }
+/* testimoni */
+
+/* Konten Opini */
+.kotak {
+    display: flex;
+    margin: 25px auto;
+    width: 73%;
+    height: 350px;
+    border-radius: 25px;
+    background-color: rgba(212, 211, 211, 0.788);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 40%);
+}
+
+.kotak img {
+    width: 100%;
+    margin: 20px 40px;
+}
+
+.isiOpini {
+    margin-right: 20px;
+    background-color: white;
+}
+
+.isiOpini h2 {
+    background-color: #db292f2c;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.isiOpini p {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.btnPinggir {
+    background-color: #DB292F;
+    border: none;
+    color: white;
+    font-size: 13px;
+    padding: 7px 13px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.btnPinggir:hover {
+    cursor: pointer;
+    background-color: #ffbf00;
+}
+.medsos {
+    width: 20%;
+    margin-top: 30px;
+    font-size: 30px;
+}
+/* Konten Opini */
+
+/* isi konten Berita */
+.kontenBerita {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto;
+    width: 73%;
+    height: 450px;
+    background-color: rgba(230, 230, 230, 0.753);
+}
+
+.berita1 {
+    width: 50%;
+}
+.berita1 img {
+    margin-top: 20px;
+    height: 80%;
+}
+
+.beritaLain {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.cardBerita {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.cardBerita img {
+    border-radius: 10px;
+}
+
+.captBerita {
+    width: 70%;
+    margin-left: 20px;
+}
+
+.captBerita h4{
+    margin-top: 0;
+}
+.captBerita p {
+    font-size: 14px;
+}
+
+.kontenBerita .btnPinggir {
+    margin-top: -30px;
+    margin-left: 0px;
+}
+
+.captBerita1 {
+    z-index: 9999;
+    margin-top: -200px;
+    margin-left: 20px;
+}
+
+.captBerita1 h3 {
+    color: white;
+    width: 90%;
+}
+/* isi konten Berita */
+
+/* Acara & TV */
+.bg {
+    background: url(https://ittelkom-pwt.ac.id/wp-content/uploads/2021/07/bg-merah.jpg) no-repeat center center/cover;
+    height: 1000px;
+    margin-top: 50px;
+}
+
+/* Acara */
+/* Judul */
+.acara {
+    position: relative;
+}
+.acara .grsAbu {
+    position: absolute;
+
+}
+/* Konten Acara */
+.kontenAcara {
+    position: absolute;
+    margin: 110px 200px;
+    width: 73%;
+    height: 550px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.display-acara {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.cardAcara {
+    display: inline-block;
+    margin: 10px;
+    height: 230px;
+    width: 45%;
+    border-radius: 20px;
+    background-color: rgba(230, 230, 230, 0.753);
+}
+
+.abuTebel {
+    margin-top: 150px;
+    height: 80px;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    background-color: rgba(189, 189, 189, 0.753);
+}
+
+
+.cardAcara img {
+    position: absolute;
+    width: 10%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.capAcara {
+    position: absolute;
+    margin-left: 160px;
+    width: 20%;
+}
+
+.loc {
+    display: flex;
+    margin-top: -10px;
+}
+
+.loc p {
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.abuTebel h2 {
+    text-align: center;
+}
+/* Acara */
+/* Acara & TV */
