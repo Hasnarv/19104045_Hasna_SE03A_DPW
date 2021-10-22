@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM HTML</title>
+</head>
+<body>
+    <table cellpadding="10">
+        <form>
+            <!-- Membuat Header -->
+            <thead>
+                <tr>
+                    <td>
+                        <font type="arial" size="6">Form HTML</font>
+                    </td>
+                </tr>
+            </thead>
+
+            <!-- Menginputkan nama -->
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td>:</td>
+                <td><input type="text" id="name"></td>
+            </tr>
+
+            <!-- Memilih gender -->
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="man" name="gender"><label for="man">Man</label>
+                    <input type="radio" id="woman" name="gender"><label for="woman">Woman</label>
+                </td>
+            </tr>
+
+            <!-- Menginputkan alamat -->
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td>:</td>
+                <td><input type="text" id="address"></td>
+            </tr>
+
+            <!-- Memilih negara -->
+            <tr>
+                <td><label for="combobox">Country</label></td>
+                <td>:</td>
+                <td>
+                    <select id="combobox">
+                        <option>Indonesia</option>
+                        <option>Singapura</option>
+                        <option>Malaysia</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Menginputkan Email -->
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>:</td>
+                <td><input type="text" id="email"></td>
+            </tr>
+
+            <!-- Menginputkan photo -->
+            <tr>
+                <td><label for="photo">Photo</label></td>
+                <td>:</td>
+                <td><input type="text" id="photo"></td>
+                <td><button>Browse...</button></td>
+            </tr>
+
+            <!-- Menginputkan comment -->
+            <tr>
+                <td><label for="text">Comment</label></td>
+                <td>:</td>
+                <td><textarea placeholder="Your Comment" id="text"></textarea></td>
+                <td><button>Submit</button></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
