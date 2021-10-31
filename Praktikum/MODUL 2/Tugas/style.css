@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body {
+    background-color: #201F1F;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 170px;
+}
+
+.iconNama {
+    display: flex;
+    justify-content: space-evenly;
+    width: 12%;
+}
+
+.nama {
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 7px;
+}
+
+.iconNama img {
+    width: 30%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-top: 7px;
+    color: white;
+}
+/* Header */
+
+/* Banner */
+.banner {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 170px;
+}
+
+.caption {
+    width: 40%;
+    margin-left: 70px;
+}
+
+.sapaan {
+    color: #298dff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+span {
+    color: white;
+}
+
+.desc {
+    margin-top: 10px;
+    margin-bottom: 70px;
+    color: white;
+    text-align: justify;
+}
+
+.btn-Email {
+    padding: 10px 20px;
+    background-color: #298dff;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+.sosmed {
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.an-sosmed {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin-top: 2px;
+    font-size: 28px;
+    color: white;
+}
+
+img.foto-banner{
+    width: 40%;
+    margin-top: -80px;
+}
+
+/* hover */
+.icon-profile:hover {
+    cursor: pointer;
+    color: #298dff;
+}
+
+.icon-experience:hover {
+    cursor: pointer;
+    color: #298dff;
+}
+
+.icon-interest:hover {
+    cursor: pointer;
+    color: #298dff;
+}
+
+.instagram:hover {
+    cursor: pointer;
+    color: #298dff;
+}
+
+.facebook:hover {
+    cursor: pointer;
+    color: #298dff;
+}
+
+.linkedin:hover {
+    cursor: pointer;
+    color: #298dff;
+}
+
+.btn-Email:hover {
+    cursor: pointer;
+    background-color: #174274;
+}
+/* Banner */
+
+/* My Profile */
+/* Judul */
+.my-profile {
+    background-image: url(img/bg.png);
+    margin-top: 130px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 650px;
+}
+
+.p-namajudul {
+    margin-top: 40px;
+    margin-bottom: 3px;
+    text-align: center;
+    color: #298dff;
+}
+
+.p-grsTebel {
+    display: grid;
+    margin: 0 auto;
+    width: 16%;
+    height: 5px;
+    background: #298dff;
+}
+
+.p-grs {
+    display: grid;
+    margin: 0 auto;
+    width: 73%;
+    height: 2px;
+    background: #298dff;
+}
+
+/* Konten My Profile */
+.konten-profile {
+    padding: 100px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto-profile {
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.foto-profile h2,h3 {
+    color: white;
+    text-align: center;
+}
+
+.foto-profile h3 {
+    margin-top: -20px;
+}
+
+.isi-profile {
+    width: 50%;
+    height: 300px;
+    background-color: rgba(90, 90, 90, 0.582);
+    border-radius: 20px;
+}
+
+table {
+    width: 90%;
+    font-size: 15px;
+    margin: 30px 20px 30px 40px;
+    color: white;
+}
+/* My Profile */
+
+/* Experience */
+/* Judul */
+.e-judul {
+    margin-top: 900px;
+}
+
+.e-namajudul {
+    margin-top: 40px;
+    margin-bottom: 3px;
+    text-align: center;
+    color: #298dff;
+}
+
+.e-grsTebel {
+    display: grid;
+    margin: 0 auto;
+    width: 16%;
+    height: 5px;
+    background: #298dff;
+}
+
+.e-grs {
+    display: grid;
+    margin: 0 auto;
+    width: 73%;
+    height: 2px;
+    background: #298dff;
+}
+
+/* Konten Experience */
+.konten-eksperience {
+    display: grid;
+    margin: 30px auto;
+    width: 73%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardEksperience {
+    margin-top: 38px;
+    width: 30%;
+    border-radius: 12px;
+    background-color: white;
+    height: 200px;
+}
+
+.cardEksperience p.heading {
+    margin-top: 0px;
+    background-color: #298dff;
+    padding: 18px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 9px 9px 0 0;
+}
+
+.cardEksperience ul.foot {
+    font-size: 12px;
+}
+/* Experience */
+
+/* Interest */
+/* Judul */
+.i-judul {
+    margin-top: 300px;
+}
+
+.i-namajudul {
+    margin-top: 40px;
+    margin-bottom: 3px;
+    text-align: center;
+    color: #298dff;
+}
+
+.i-grsTebel {
+    display: grid;
+    margin: 0 auto;
+    width: 16%;
+    height: 5px;
+    background: #298dff;
+}
+
+.i-grs {
+    display: grid;
+    margin: 0 auto;
+    width: 73%;
+    height: 2px;
+    background: #298dff;
+}
+
+/* Konten Interest */
+.konten-interest {
+    background-color: #c4c4c40c;
+    height: 600px;
+    margin-top: -100px;
+}
+
+.sub {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    margin: 200px 310px;
+    justify-content: space-around;
+}
+
+.sub-interest img {
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.sub-interest .id {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+/* Interest */
+
+/* Footer */
+.footer {
+    background-color: #298dff;
+    height: 230px;
+}
+
+.isi-footer {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.myname {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.konten-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    color: white;
+}
+
+.konten-footer .alamat {
+    width: 60%;
+}
+
+.konten-footer .bates {
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 2px;
+}
+
+.sosmed-footer {
+    display: grid;
+}
+
+.sos {
+    display: flex;
+}
+
+.sos ion-icon {
+    font-size: 28px;
+}
+
+.sos p {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+/* Hover */
+.sos:hover {
+    color: #174274;
+}
+/* Footer */
