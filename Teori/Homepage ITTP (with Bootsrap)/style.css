@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(https://ittelkom-pwt.ac.id/wp-content/uploads/2021/04/bg.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #e5e5e5e5;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: space-evenly;
+    width: 125px;
+    margin-right: 200px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.sosmed .instagram:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.sosmed .facebook:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.sosmed .youtube:hover {
+    cursor: pointer;
+    color: red;
+}
+
+
+/* hero */
+.hero {
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 40%);
+    border-radius: 25px;
+}
+
+.navbar {
+    border-radius: 25px 25px 0 0;
+    background-color: #db292f;
+}
+
+ul li {
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.cari {
+    position: relative;
+}
+
+.cari input {
+    background-color: #e25155;
+    border: none;
+    border-radius: 14px;
+}
+
+.cari ::placeholder {
+    color: white;
+}
+
+.iconSRC {
+    position: absolute;
+    font-size: 20px;
+    top: 20%;
+    right: 8%;
+    color: white;
+}
+
+.carousel img {
+    height: 500px;
+    border-radius: 0 0 25px 25px;
+}
+
+.caption-carousel {
+    position: absolute;
+    left: 17%;
+    top: 25%;
+    width: 40%;
+}
+
+.btn {
+    position: absolute;
+    bottom: 20%;
+    left: 17%;
+    background-color: #db292f;
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #ffbf00;
+    border: none;
+    color: white;
+}
+
+.caption-carousel :nth-child(1) {
+    color: red;
+    font-size: 1.9em;
+    font-weight: 700;
+}
+
+.caption-carousel :nth-child(2) {
+    color: black;
+}
+/* Hero */
+
+/* Info */
+.info {
+    display: grid;
+    margin: 85px auto;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 40%);
+    background-color: white;
+}
+
+.display-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    justify-items: center;
+}
+
+.display-info p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.kartu {
+    width: 245px;
+}
+
+.icon {
+    font-size: 33px;
+    margin: 13px 12px;
+}
+
+.b {
+    background: none;
+    background-color: #DB292F;
+    border: none;
+    color: white;
+    font-size: 13px;
+    width: max-content;
+    display: grid;
+    margin: 33px auto;
+    padding: 7px 13px;
+}
+
+.kartu:hover {
+    transform: translateY(-45px);
+    transition: .4s;
+    background: linear-gradient(#db292f, #741216);
+    color: white;
+    border-radius: 23px;
+}
+/* Info */
+
+
+/* mengapa ITTP */
+/* judul */
+.judul {
+
+    margin-top: -30px;
+    width: 40%;
+    height: 50px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(212, 211, 211, 0.788);
+    position: relative;
+}
+
+.garis {
+    width: 2%;
+    height: 50px;
+    background-color: #DB292F;
+    
+}
+
+.judul p {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    margin-top: 12px;
+}
+
+p span {
+    font-weight: 700;
+}
+/* judul */
+
+/* kunggulan */
+.keunggulan {
+    margin: 30px auto;
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardKeunggulan {
+    margin-top: 38px;
+    width: 22%;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid #db292f;
+    height: 200px;
+}
+
+.cardKeunggulan img {
+    position: absolute;
+    background-color: white;
+    padding: 6px;
+    border-radius: 9px;
+    top: 15px;
+    left: 110px;
+    box-shadow: 5px 5px 23px rgba(0, 0, 0, 30%);
+}
+
+.cardKeunggulan img.why2 {
+    left: 410px;
+}
+
+.cardKeunggulan img.why3 {
+    left: 705px;
+}
+
+.cardKeunggulan img.why4 {
+    left: 1000px;
+}
+
+.cardKeunggulan p.heading {
+    margin-top: 0px;
+    background-color: #db292f;
+    padding: 18px;
+    color: white;
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    border-radius: 9px 9px 0 0;
+}
+
+.cardKeunggulan p.foot {
+    text-align: center;
+    font-size: 12px;
+}
+/* kunggulan */
+/* mengapa ITTP */
