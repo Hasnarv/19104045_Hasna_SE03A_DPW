@@ -195,7 +195,8 @@ ul li {
 .judul p {
     position: absolute;
     top: 0;
-    left: 30px;
+    left: 20px;
+    font-size: 17px;
     margin-top: 12px;
 }
 
@@ -245,14 +246,16 @@ p span {
 }
 
 .cardKeunggulan p.heading {
-    margin-top: 0px;
+    margin-top: -1px;
+    margin-left: 0px;
     background-color: #db292f;
-    padding: 18px;
+    padding: 15px;
     color: white;
     font-weight: 700;
     font-size: 27px;
     text-align: center;
     border-radius: 9px 9px 0 0;
+    width: 100%;
 }
 
 .cardKeunggulan p.foot {
@@ -261,3 +264,106 @@ p span {
 }
 /* kunggulan */
 /* mengapa ITTP */
+
+/* Testimoni */
+/* Judul */
+.testimoni {
+    background-color: #db292f2c;
+    position: relative;
+    width: 117%;
+    height: 670px;
+    margin-left: -110px;
+    margin-top: 60px;
+
+}
+
+.isiTesti {
+    width: 100%;
+}
+
+h3.judulAtas{
+    padding-top: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.grs {
+    display: grid;
+    margin: auto;
+    height: 2px;
+    background: #DB292F;
+}
+
+.grsTebel {
+    display: grid;
+    margin: 0 auto;
+    width: 25%;
+    height: 5px;
+    background: #DB292F;
+}
+
+.grsAbu {
+    margin-top: 30px;
+    width: 13%;
+    height: 50px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(202, 202, 202);
+    position: relative;
+}
+
+.grsAbu p {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    margin-top: 12px;
+    font-size: 17px;
+}
+
+.grsMerah {
+    width: 5%;
+    height: 50px;
+    background-color: #DB292F;
+}
+
+/* Carousel Testimoni */
+.testi {
+    padding: 0px 170px;
+    margin-top: 40px;
+}
+
+.cardTesti {
+    width: 100%;
+    border-radius: 12px;
+    height: 370px;
+    text-align: center;
+}
+
+.cardTesti.merah {
+    background-color: #DB292F;
+}
+
+.cardTesti.putih {
+    background-color: #fff;
+}
+
+.cardTesti .foto-alumni {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 40%;
+}
+
+.cardTesti.merah .isi {
+    color: white;
+}
+
+.cardTesti.putih .isi h5 {
+    color: #db292f;
+}
+
+.isi h6,p {
+    text-align: center;
+    font-size: 11px;
+    margin: 15px;
+
+}
+/* Testimoni */

@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS BOOTSTRAP -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
     <!-- CSS EXTERNAL -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
     <!-- favicon -->
     <link rel="icon" href="img/logoITTP.png">
@@ -31,6 +30,7 @@
 
 
     <div class="container">
+        <!-- Hero -->
         <div class="hero mt-4">
             <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-light p-4">
@@ -113,6 +113,7 @@
             </div>
             <!-- carousel -->
         </div>
+        <!-- Hero -->
 
         <!-- Info -->
         <div class="card info">
@@ -213,11 +214,118 @@
             </div>
         </div>
         <!-- Mengapa ITTP -->
+
+        <!-- Testimoni -->
+        <div class="testimoni">
+            <div class=" container isiTesti">
+                <!-- judul testimoni -->
+                <h3 class="judulAtas">TESTIMONI & OPINI</h3>
+                <div class="grsTebel"></div>
+                <div class="grs"></div>
+                <div class="grsAbu">
+                    <div class="grsMerah"></div>
+                    <p>Kata <span>Alumni</span> </p>
+                </div>
+
+                <!-- card item -->
+                <div class="owl-carousel owl-theme testi">
+                    <div class="item cardTesti merah">
+                        <div class="foto-alumni">
+                            <img src="img/foto1.png" alt="">
+                        </div>
+                        <div class="isi">
+                            <h5>Hidni Qafiah</h5>
+                            <h6>Bekerja di PT. Siscom Technologies</h6>
+                            <p>Kuliah di Institut Teknologi Telkom Purwokerto memberikan banyak pengalaman menyenangkan
+                                dan
+                                juga hal yang bermanfaat bagi saya saat ini. Dari akademik hingga non-akademik, suasana
+                                kampus yang menyenangkan juga mendukung mahasiswa untuk berkembang.</p>
+                        </div>
+                    </div>
+                    <div class="item cardTesti putih">
+                        <div class="foto-alumni">
+                            <img src="img/foto2.jpg" alt="">
+                        </div>
+                        <div class="isi">
+                            <h5>Teguh Ikhlas M</h5>
+                            <h6>Bekerja di PT. PINS Indonesia</h6>
+                            <p>Saya merasa bangga pernah menempuh pendidikan di Institut Teknologi Telkom Purwokerto.
+                                Saya
+                                mendapatkan banyak pembelajaran dan ilmu mengenai teknologi.</p>
+                        </div>
+                    </div>
+                    <div class="item cardTesti merah">
+                        <div class="foto-alumni">
+                            <img src="img/foto3.png" alt="">
+                        </div>
+                        <div class="isi">
+                            <h5>Dwi Giovanni</h5>
+                            <h6>Bekerja di Detik.Com</h6>
+                            <p>Institut Teknologi Telkom Purwokerto tidak hanya mengajarkan tentang pendidikan formal,
+                                juga
+                                tentang bagaimana menghadapi dunia setelah menyelesaikan pendidikan. Saya bangga menjadi
+                                bagian dari Institut Teknologi Telkom Purwokerto.</p>
+                        </div>
+                    </div>
+                    <div class="item cardTesti putih">
+                        <div class="foto-alumni">
+                            <img src="https://ittelkom-pwt.ac.id/wp-content/uploads/2021/06/Bayu.png" alt="">
+                        </div>
+                        <div class="isi">
+                            <h5>Bayu Rian Agung N</h5>
+                            <h6>Bekerja di PT. Kereta Api Indonesia</h6>
+                            <p>Banyak pilihan kampus untuk kuliah, banyak pilihan program studi untuk mengembangkan diri, tapi saya mantap dan yakin Institut Teknologi Telkom Purwokerto tetap jadi pilihan ideal. Terima kasih ITTP.</p>
+                        </div>
+                    </div>
+                    <div class="item cardTesti merah">
+                        <div class="foto-alumni">
+                            <img src="https://ittelkom-pwt.ac.id/wp-content/uploads/2021/06/Mega.png" alt="">
+                        </div>
+                        <div class="isi">
+                            <h5>Mega Anggraeni MD</h5>
+                            <h6>Bekerja di PT. Telkomsel</h6>
+                            <p>Memang banyak pilihan perguruan tinggi, tapi waktu itu saya memilih Institut Teknologi Telkom Purwokerto. Sekarang saya sudah lulus dan bekerja di Telkomsel. Sungguh mengesankan kuliah di ITTP, saya mendapatkan apa yang saya inginkan.</p>
+                        </div>
+                    </div>
+                    <div class="item cardTesti putih">
+                        <div class="foto-alumni">
+                            <img src="https://ittelkom-pwt.ac.id/wp-content/uploads/2021/07/ARIE.png" alt="">
+                        </div>
+                        <div class="isi">
+                            <h5>Arie Budi Prasojo</h5>
+                            <h6>Bekerja di Indosat Ooredoo</h6>
+                            <p>Saya sangat bangga menjadi alumni Institut Teknologi Telkom Purwokerto. Pengetahuan dan pengalaman yang saya peroleh selama kuliah, telah mengantarkan saya menuju karier sebagai Service Manager di Indosat Ooredoo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimoni -->
     </div>
 
 
     <!-- JS  Bootstrap -->
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
 
     <!-- ION icon -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
