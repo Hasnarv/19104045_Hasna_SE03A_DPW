@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hogwarts School</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Judul -->
+    <div class="hogwarts">
+        <img src="img/hogwarts.png" alt="" class="img-hogwarts">
+        <H1>HOGWARTS SCHOOL</H1>
+    </div>
+
+    <!-- Asrama -->
+    <div class="asrama">
+        <div id="gryffindor" class="card">
+            <img src="img/gryffindor.png" alt="" class="img-gryffindor">
+            <h2>Gryffindor</h2>
+            <p id="g">Nilai asrama Gryffindor adalah keberanian, kesetiaan, tekad kuat, dan memiliki sifat kepahlawanan. Kepala asramanya adalah guru Transfigurasi, Minerva McGonagall. Pendiri asramanya adalah Godric Gryffindor.</p>
+        </div>
+        <div id="ravenclaw" class="card">
+            <img src="img/ravenclaw.png" alt="" class="img-ravenclaw">
+            <h2>Ravenclaw</h2>
+            <p id="r">Nilai asrama Ravenclaw adalah kecerdasan, kreativitas, kegemaran belajar, dan kecantikan/ketampanan. Kepala asramanya adalah profesor Filius Flitwick. Pendiri asramanya adalah Rowena Ravenclaw.</p>
+        </div>
+        <div id="hufflepuff" class="card">
+            <img src="img/hufflepuff.png" alt="" class="img-hufflepuff">
+            <h2>Hufflepuff</h2>
+            <p id="h">Nilai asrama Hufflepuff adalah kerja keras, toleransi, loyalitas, dan keadilan. Kepala asramanya adalah guru Herbologi, Pomona Sprout. Pendiri asrama ini adalah Helga Hufflepuff.</p>
+        </div>
+        <div id="slyntherin" class="card">
+            <img src="img/slyntherin.png" alt="" class="img-slyntherin">
+            <h2>Slyntherin</h2>
+            <p id="s">Nilai asrama Slytherin adalah ambisi, idealis, kepemimpinan, kecerdikan, dan yang paling penting adalah memiliki darah penyihir murni. Kepala asramanya adalah Severus Snape. Pendiri asramanya adalah Salazar Slytherin.</p>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script>
+        $("#gryffindor").on("click", function () {
+        $("#g").toggle();
+      });
+
+      $("#ravenclaw").on("click", function () {
+        $("#r").toggle();
+      });
+
+      $("#hufflepuff").on("click", function () {
+        $("#h").toggle();
+      });
+
+      $("#slyntherin").on("click", function () {
+        $("#s").toggle();
+      });
+    </script>
+</body>
+</html>

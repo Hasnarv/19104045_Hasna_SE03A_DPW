@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #202124;
+}
+
+.img-hogwarts {
+    width: 15%;
+}
+
+.hogwarts {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.hogwarts h1 {
+    color: white;
+}
+
+.asrama {
+    display: flex;
+    justify-content: center;
+    margin: 50px 150px;
+}
+
+.card {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.card h2,p {
+    color: white;
+}
+
+/* Card Gryffindor */
+#gryffindor {
+    background-color: #c400009a;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.img-gryffindor {
+    width: 60%;
+}
+
+/* Card Ravenclaw */
+#ravenclaw {
+    background-color: #0000a081;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.img-ravenclaw {
+    width: 60%;
+}
+
+/* Card Hufflepuff */
+#hufflepuff {
+    background-color: #c7c703;
+    border-radius: 20px;
+    padding: 20px;
+}
+.img-hufflepuff {
+    width: 60%;
+}
+
+/* Card Slyntherin */
+#slyntherin {
+    background-color: #4e9a06;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.img-slyntherin {
+    width:90%;
+}
