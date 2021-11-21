@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(https://ittelkom-pwt.ac.id/wp-content/uploads/2021/04/bg.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #e5e5e5e5;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: space-evenly;
+    width: 125px;
+    margin-right: 200px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.sosmed .instagram:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.sosmed .facebook:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.sosmed .youtube:hover {
+    cursor: pointer;
+    color: red;
+}
+
+
+/* hero */
+.hero {
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 40%);
+    border-radius: 25px;
+}
+
+.navbar {
+    border-radius: 25px 25px 0 0;
+    background-color: #db292f;
+}
+
+ul li {
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.cari {
+    position: relative;
+}
+
+.cari input {
+    background-color: #e25155;
+    border: none;
+    border-radius: 14px;
+}
+
+.cari ::placeholder {
+    color: white;
+}
+
+.iconSRC {
+    position: absolute;
+    font-size: 20px;
+    top: 20%;
+    right: 8%;
+    color: white;
+}
+
+.carousel img {
+    height: 500px;
+    border-radius: 0 0 25px 25px;
+}
+
+.caption-carousel {
+    position: absolute;
+    left: 17%;
+    top: 25%;
+    width: 40%;
+}
+
+.btn {
+    position: absolute;
+    bottom: 20%;
+    left: 17%;
+    background-color: #db292f;
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #ffbf00;
+    border: none;
+    color: white;
+}
+
+.caption-carousel :nth-child(1) {
+    color: red;
+    font-size: 1.9em;
+    font-weight: 700;
+}
+
+.caption-carousel :nth-child(2) {
+    color: black;
+}
+/* Hero */
